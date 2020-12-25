@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+header, h1, div, model-viewer {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(226, 247, 213);
+}
+
+header {
+    padding: 2rem;
+    font-family: "Luckiest Guy", "ariel";  
+    font-size: 60px;
+    color: red;
+    text-shadow: 3px 3px 8px #06b906
+    /* background: -webkit-linear-gradient(rgb(219, 13, 13), rgb(168, 224, 168));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent */
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(1px 1px 0 black) 
+          drop-shadow(-1px -1px 0 black)
+}
+
+h1 {
+    color: green;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+div {
+    color: rgb(155, 9, 9);
+    font-family: 'Courgette';
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1rem;
+    background-color: rgb(236, 160, 160);
+    border-radius: 15px;
+    box-shadow: 7px 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    font-size: 17px;
+    color: white;
+    opacity: 60%;
+}
+
+model-viewer {
+    height: 15rem;
+    margin-top: 1rem;
+}
