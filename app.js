@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:3000"
+const baseURL = "https://elf-my-shelf.herokuapp.com"
 const modelsURL = "/models"
 
 const $modelSection = document.querySelector('#model-display')
